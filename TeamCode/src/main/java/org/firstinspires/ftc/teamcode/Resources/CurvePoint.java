@@ -71,6 +71,9 @@ public class CurvePoint {
         this.faceTowardsAngle = faceTowardsAngle;
     }
 
+    public void setDistanceAlongPath(double dist){
+        this.distanceAlongPath = dist;
+    }
 
     public double getDistanceAlongPath(){
         return distanceAlongPath;
